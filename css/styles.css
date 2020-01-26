@@ -33,9 +33,9 @@
   background-color: rgb(212, 209, 209);
   padding: 100 px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 400px) {
   .column {
-    width: 200px;
+    width: 100px;
     float: left;
-    padding: 20px;
+    padding: 10px;
 }
