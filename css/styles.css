@@ -13,8 +13,10 @@
 }
 
 .authorimg {
-  width: 300px;
+  width: 150px;
   height: auto;
+  float: right;
+  border: dotted black;
 }
 
 .card-img-top {
@@ -22,23 +24,4 @@
   height: 200px;
   object-fit: contain;
 }
-
-.green {
-  color: #047522;
-}
-
-.orange {
-  color: #f77a05;
-}
-
-.red{
-  color: #cf0408;
-}
-
-.blue {
- color: #0232ad;
-}
-
-
-
 

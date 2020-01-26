@@ -1,100 +1,114 @@
 <!DOCTYPE html>
-  <header>
+<html>
+  <head>
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <title>Dasha's Portfolio Landing Page Project</title>
-  </header>
-
+  </head>
   <body>
-
-  <nav class="nav nav-pills">
-    <a class="nav-link active" href="#"a href=#>Home</a>
-    <a class="nav-link" href="#"a href=#>About Me</a>
-  </nav>
-
-
-    <div class="t1">
-      <h1>Dasha's Portfolio Landing Page</h1>
-      <p>This webpage is designed to showcase my basic coding skills which I learned during the first three weeks of the 'Intro to Programming Class' at Epicodus</p>
-    </div>
-
-    <div class="container">
-      <div class="margin">
-        <div class ="padding">
-          <p><em>You don't have to be great to start, but you have <strong> to start</strong> to be great." - Zig Ziglar</em></p>
+    <ul class="nav nav-tabs">
+      <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+      <li><a data-toggle="tab" href="#aboutme">About Me</a></li>
+    </ul>
+  <div class="tab-content">
+    <div class="tab-pane fade show active" id="home">
+        <div class="t1">
+          <h1>Dasha's Portfolio Landing Page</h1>
+          <p>This webpage is designed to showcase my basic coding skills which I learned during the first three weeks of the 'Intro to Programming Class' at Epicodus</p>
         </div>
-        <div class="padding">
-          <p>I am student of the coding bootcamp Epicodus in Portland, Oregon. In the introdcutory course that lasted three weeks we learned how to create and manage a Gihub repository, use Terminal and Visual Stuido Code, create webpages using Markdown and HTML, and style those webpages with the help of CSS and Bootstrap. I never thought I could create a website myself, but it's actually not that hard. It's pretty fun too!</p>
-          <p>This webpage examplifies everything I've learned so far, like the use of different tags, divs, classes, styles. You can't see the full set of requirements because it's published on the student portal, but you can see the code for this website in its Github <a href="https://github.com/drakosha-07/portfolio-landing-page">repository</a>.</p>
-        </div>
-        <div class="padding">
-          <h1 class="text-center"><u>The Current Project Portfolio</u><h1>
-        </div>
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="images/cupcake.jpg" alt="Cupcake image">
-              <div class="card-body">
-                <h4 class="card-title">Cupcake Shop</h4>
-                <p class="card-text">A webpage for an imaginary cupcake shop in Portland. Contains:
-                <ul>
-                  <li>images</li>
-                  <li>CSS classes</li>
-                  <li>a link to the grubhub website for delivery requests</li>
-                </ul></p>
-                <a href="https://github.com/drakosha-07/cupcake-shop/blob/master/cupcake-shop/index.html" class="btn btn-primary">See on Github</a>
-              </div>
-            </div>
+        <div class="container">
+        <div class="margin">
+          <div class ="padding">
+            <p><em>You don't have to be great to start, but you have <strong> to start</strong> to be great." - Zig Ziglar</em></p>
           </div>
-          <div class="col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="images/books.jpg" alt="Books image">
-              <div class="card-body">
-                <h4 class="card-title">Boring Lecture</h4>
-                <p class="card-text">A text of a boring lecture using lots of fake text. Contains:
-                <ul>
-                  <li>lorem ipsum text</li>
-                  <li>images</li>
-                  <li>CSS classes</li>
-                  <li>divs</li>
-                </ul></p>
-                <a href="https://github.com/drakosha-07/cupcake-shop/blob/master/cupcake-shop/index.html" class="btn btn-success">See on Github</a>
-              </div>
-            </div>
+          <div class="padding">
+            <p>I am student of the coding bootcamp Epicodus in Portland, Oregon. In the introdcutory course that lasted three weeks we learned how to create and manage a Gihub repository, use Terminal and Visual Stuido Code, create webpages using Markdown and HTML, and style those webpages with the help of CSS and Bootstrap. I never thought I could create a website myself, but it's actually not that hard. It's pretty fun too!</p>
+            <p>This webpage examplifies everything I've learned so far, like the use of different tags, divs, classes, styles. You can't see the full set of requirements because it's published on the student portal, but you can see the code for this website in its Github <a href="https://github.com/drakosha-07/portfolio-landing-page">repository</a>.</p>
           </div>
-          <div class="col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="images/cellphone.jpg" alt="Cellphone image">
-              <div class="card-body">
-                <h4 class="card-title">Media Query</h4>
-                <p class="card-text">A responsive webpage that adjusts itself to the user's device. Contains:
-                <ul>
-                  <li>@media rule</li>
-                  <li>columns</li>
-                  <li>CSS classes</li>
-                  <li>divs</li>
-                </ul></p>
-                <a href="https://github.com/drakosha-07/Media-Query/blob/master/media-query-practice.html" class="btn btn-warning">See on Github</a>
-              </div>
-            </div>
+          <div class="padding">
+            <h1 class="text-center"><u>The Current Project Portfolio</u><h1>
           </div>
-          <div class="col-md-3">
-            <div class="card">
-              <img class="card-img-top" src="images/cat.jpg" alt="Kitty image">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="card">
+                <img class="card-img-top" src="images/cupcake.jpg" alt="Cupcake image">
                 <div class="card-body">
-                  <h4 class="card-title">Animal Shelter</h4>
-                  <p class="card-text">An ad for an animal shelter showcasing animals for adoption. Contains:
+                  <h4 class="card-title">Cupcake Shop</h4>
+                  <p class="card-text">A webpage for an imaginary cupcake shop in Portland. Contains:
                   <ul>
-                    <li>divs</li>
-                    <li>images</li>
-                    <li>css classes</li>
-                    <li>grid</li>
+                    <li>images</ li>
+                    <li>CSS classes</li>
+                    <li>a link to the grubhub website for delivery requests</li>
                   </ul></p>
-                <a href="https://github.com/drakosha-07/animal-shelter" class="btn btn-danger">See on Github</a>
+                  <a href="https://github.com/drakosha-07/cupcake-shop/blob/master/cupcake-shop/index.html" class="btn btn-primary">See on Github</a>
                 </div>
               </div>
             </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="card-img-top" src="images/books.jpg" alt="Books image">
+                <div class="card-body">
+                  <h4 class="card-title">Boring Lecture</h4>
+                  <p class="card-text">A text of a boring lecture using lots of fake text. Contains:
+                  <ul>
+                    <li>lorem ipsum text</li>
+                    <li>images</ li>
+                    <li>CSS classes</li>
+                    <li>divs</li>
+                  </ul></p>
+                  <a href="https://github.com/drakosha-07/cupcake-shop/blob/master/cupcake-shop/index.html" class="btn btn-success">See on Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="card-img-top" src="images/cellphone.jpg" alt="Cellphone image">
+                <div class="card-body">
+                  <h4 class="card-title">Media Query</h4>
+                  <p class="card-text">A responsive webpage that adjusts itself to the user's device. Contains:
+                  <ul>
+                  <li>@media rule</li>
+                    <li>columns</li>
+                    <li>CSS classes</li>
+                    <li>divs</li>
+                  </ul></p>
+                  <a href="https://github.com/drakosha-07/Media-Query/blob/master/media-query-practice.html" class="btn btn-warning">See on Github</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="card">
+                <img class="card-img-top" src="images/cat.jpg" alt="Kitty image">
+                  <div class="card-body">
+                    <h4 class="card-title">Animal Shelter</h4>
+                    <p class="card-text">An ad for an animal shelter showcasing animals for adoption. Contains:
+                    <ul>
+                      <li>divs</li>
+                      <li>images</li>
+                      <li>css classes</li>
+                      <li>grid</li>
+                    </ul></p>
+                    <a href="https://github.com/drakosha-07/animal-shelter" class="btn btn-danger">See on Github</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
       </div>
     </div>
+    <div class="tab-pane fade" id="aboutme">
+        <h3>The Student</h3>
+        <img class="authorimg" src="images/DwithG.jpg">
+        <p>Hello! My name is Dasha Maletis. I live in Portland, Oregon, and am an accountant. I became interested in coding for the following reasons:</p>
+        <ol>
+          <li>I like solving puzzles.</li>
+          <li>Technology is all around us. It's cool to udnerstand how it works.</li>
+          <li>It's a well-compensated marketable skill that is forecasted to stay in high demand.</li>
+        </ol>
+        <p>In my free time, I enjoy working out, reading, cooking and hiking. I feel like it's true about most people who live in the Pacific Northwest - you gotta enjoy the beauty of the outdoors and have some hobbies for the rainy days!</p>
+    </div>
   </div>
-  </body>
+</body>
+</html>
