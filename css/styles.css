@@ -4,13 +4,21 @@
   padding: 100px;
 }
 
-.quote {
-  color:grey;
-  margin: 30px;
+.margin {
+  margin: 10px;
 }
 
-.imgsize {
+.padding {
+  padding: 35px;
+}
+
+.authorimg {
   width: 300px;
   height: auto;
+}
+
+.projimg{
+  width: auto;
+  height: 210px;
 }
 
