@@ -29,3 +29,13 @@
   height: 200px;
   object-fit: contain;
 }
+.about{
+  background-color: rgb(212, 209, 209);
+  padding: 100 px;
+}
+@media screen and (min-width: 768px) {
+  .column {
+    width: 200px;
+    float: left;
+    padding: 20px;
+}
