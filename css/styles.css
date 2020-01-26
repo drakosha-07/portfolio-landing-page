@@ -4,6 +4,11 @@
   padding: 100px;
 }
 
+.elements {
+  color: rgb(190, 49, 6);
+  font-family: georgia;
+}
+
 .margin {
   margin: 10px;
 }
