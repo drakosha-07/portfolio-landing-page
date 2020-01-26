@@ -1,16 +1,16 @@
-.intro {
-  color: #291873;
-  font-weight: bold;
-  text-align: center;
+.t1 {
+  background-image: url('https://images.pexels.com/photos/1044990/pexels-photo-1044990.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  color: white;
+  padding: 100px;
 }
-.author {
-  background-color: #f2f569;
-  font-family: Georgia;
 
+.quote {
+  color:grey;
+  margin: 30px;
 }
-.box {
-  width: 320px;
-  padding: 10px;
-  border: 5px solid gray;
-  margin: 0; 
+
+.imgsize {
+  width: 300px;
+  height: auto;
 }
+
