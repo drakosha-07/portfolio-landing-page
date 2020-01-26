@@ -17,8 +17,29 @@
   height: auto;
 }
 
-.projimg{
-  width: auto;
-  height: 210px;
+.card-img-top {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  
 }
 
+.green {
+  color: #047522;
+}
+
+.orange {
+  color: #f77a05;
+}
+
+.red{
+  color: #cf0408;
+}
+
+.blue {
+ color: #0232ad;
+}
+.sub{
+  font-size: small;
+  font-stretch: expanded;
+}
